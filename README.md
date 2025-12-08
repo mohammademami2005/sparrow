@@ -1,20 +1,27 @@
 # Sparrow Template design
 
-A modern website template built with **HTML**, **CSS**, **Tailwind**, and **JavaScript**, inspired by the clean and elegant Sparrow template. Designed with a focus on minimalism, responsiveness, and smooth user experience.
+A modern and minimal website template built using **HTML**, **CSS**, and
+**JavaScript**, with a **very small amount of Tailwind classes** added
+for faster styling.\
+This project is **one of my first real-world web development projects**,
+focusing on learning structure, design, and clean UI.
 
+------------------------------------------------------------------------
 
 
 ## 🌐 Demo
 
-- Live Demo: [http://sparrow.webpana.ir/](http://sparrow.webpana.ir/)
+- Live Demo: [https://sparrow.mohammademamiproject.ir/](https://sparrow.mohammademamiproject.ir/)
 -  [GitHub Demo](https://mohammademami2005.github.io/sparrow.webpana.ir/)
 
+------------------------------------------------------------------------
 
 
 ## 🛠️ Source Code
 
-- [GitHub Repository](https://github.com/mohammademami2005/sparrow.webpana.ir)
+- [GitHub Repository](https://github.com/mohammademami2005/sparrow)
 
+------------------------------------------------------------------------
 
 
 ## 📱 Connect with me
@@ -24,6 +31,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 -  [Email](mailto:mohammademamiwebdeveloper@gmail.com)
 
 
+------------------------------------------------------------------------
 
 
 ## 👨‍🏫 Master
@@ -35,24 +43,24 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 
 
 
-### ✨ Features
+------------------------------------------------------------------------
 
-- **Minimal Design**: Simple yet elegant design for optimal user experience.
-- **Responsive Layout**: Adapts seamlessly to all screen sizes.
-- **Tailwind Integration**: Powered by Tailwind for rapid styling.
-- **Modern Functionality**: Smooth navigation and user interactions.
+## ✨ Features
 
+-   **Minimal & Clean UI**
+-   **Fully Responsive Layout**
+-   **Smooth Navigation & Animations**
+-   **Light Tailwind Usage** (mostly custom CSS)
 
+------------------------------------------------------------------------
 
 ## 🖼️ Screenshot
 
-![desktop full screenshot](https://github.com/user-attachments/assets/830be75e-d405-4446-9cc8-096fcc982493)
+![desktop full
+screenshot](https://github.com/user-attachments/assets/830be75e-d405-4446-9cc8-096fcc982493)
 
-The above image represents the layout and design of the Sparrow template, showcasing its clean aesthetic and user-friendly interface.
-To see more, visit Instagram or LinkedIn or one of the two demos provided.
+This screenshot shows the clean, minimal layout of the Sparrow
+template.\
+Visit the live demo for the full experience.
 
-
-
-
-
-Feel free to contribute or report issues in the repository!
+------------------------------------------------------------------------
