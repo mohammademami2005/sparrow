@@ -7,40 +7,40 @@
 }
 
 body {
-  font-family: 'Lato' , Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   scroll-behavior: smooth;
-	  overflow-x: hidden;
+  overflow-x: hidden;
 
   /* ------------------- header ------------------- */
-  >header {
-	  position:fixed;
+  > header {
+    position: fixed;
 
-	@media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       position: fixed;
-      left: calc(100vw - 66px);
+      left: calc(100vw - 95px);
     }
 
     /*------------------- header div for logo and buttons ------------------ */
-    >div {
+    > div {
       background-color: rgb(20, 19, 19) !important;
-      padding-inline: 20px;
+      /* padding-inline: 20px; */
       z-index: 1000;
-		position:relative;
+      position: relative;
+      
 
-      >div {
-
+      > div {
         /* logo  */
-        >i {}
+        > i {
+        }
 
         /* logo end  */
 
-        >button {
+        > button {
           color: white !important;
           cursor: pointer;
-          
 
           &:nth-of-type(2) {
-            >span {
+            > span {
               background-color: white;
               cursor: pointer;
             }
@@ -61,13 +61,12 @@ body {
       background-color: rgba(0, 0, 0, 0.9);
       opacity: 0;
 
-
       @media screen and (min-width: 768px) {
         width: 50vw;
       }
 
       /*---------------- ul parent ------------- */
-      >ul {
+      > ul {
         padding-left: 10rem;
         /* background-color: cadetblue; */
         min-height: 100vh;
@@ -77,9 +76,8 @@ body {
         /* height: 100vh; */
         /* overflow: auto; */
 
-
         /* li parent  */
-        >li {
+        > li {
           /* width: 100%; */
           /* text-align: start; */
           color: whitesmoke;
@@ -88,11 +86,7 @@ body {
           /* background-color: red; */
           margin-bottom: 1rem;
 
-
-
-
-
-          >button {
+          > button {
             transition: 0.5s;
             transform: translateY(100px);
             opacity: 0;
@@ -103,30 +97,25 @@ body {
             justify-content: center;
             align-items: center;
 
-            >svg {
+            > svg {
               height: 100%;
               /* background: #000; */
               padding-top: 5px;
               padding-left: 6px;
               color: white;
             }
-
           }
 
-
-
-
           /* ----------- ul children ------------ */
-          >ul {
+          > ul {
             visibility: hidden !important;
             transition: 0.8s;
             flex-grow: 0;
             height: 0;
             /* background-color: aqua; */
 
-
             /* ----------- li children ------------ */
-            >li {
+            > li {
               width: 100%;
               color: rgb(184, 182, 182);
               opacity: 0 !important;
@@ -140,45 +129,37 @@ body {
                 color: white;
                 font-size: 18px;
               }
-
             }
 
             /* ----------- li children end ------------ */
-
           }
 
           /* ----------- ul children end ------------ */
 
-
           &:nth-of-type(3) {
-
-            >div {
+            > div {
               height: 0;
               overflow: hidden;
 
-              >ul {}
+              > ul {
+              }
             }
-
-
           }
-
         }
 
         .showMenuLi {
           transform: translateY(0);
           opacity: 1;
-
         }
 
         /* li parent  */
-
 
         /*----------- other style for animation and hide or show------------ */
         .show {
           visibility: visible !important;
           height: auto !important;
 
-          >li {
+          > li {
             opacity: 1 !important;
             transform: translateY(0) !important;
           }
@@ -190,8 +171,6 @@ body {
         } */
 
         /*----------- other style for animation and hide or show end------------ */
-
-
       }
 
       /* -----------------ul parent end -------------- */
@@ -219,26 +198,23 @@ body {
   /* ------------------- end header ------------------- */
 
   /* ------------------- main section ------------------- */
-  >main {
+  > main {
     padding-top: 8rem;
-	  
-	@media screen and (min-width: 1024px) {
+
+    @media screen and (min-width: 1024px) {
       padding-top: 2rem;
     }
 
-    >section {
-
-
+    > section {
       @media screen and(min-width:768px) {
         padding-inline: 10%;
-
       }
 
       /* -------------------------------home section ----------------------------  */
       &:nth-of-type(1) {
         padding-inline: 5%;
 
-        >div {
+        > div {
           &:nth-of-type(1) {
             @media only screen and (min-width: 768px) {
               /* border: 10px solid red; */
@@ -251,11 +227,11 @@ body {
               height: 61vh;
               margin-right: 5%;
             }
-			@media screen and (min-width: 1440px) {
+            @media screen and (min-width: 1440px) {
               height: 84.5vh;
             }
 
-            >.iframe {
+            > .iframe {
               width: 100% !important;
               height: 100% !important;
               /* margin-left: 10%; */
@@ -268,25 +244,25 @@ body {
               gap: 20px;
               margin-bottom: 30px;
             }
-			 	@media screen and (min-width: 1024px) {
-				  margin-top:14%;
-				}
+            @media screen and (min-width: 1024px) {
+              margin-top: 14%;
+            }
 
-            >h1 {
-              >span {
+            > h1 {
+              > span {
                 font-size: 35px;
               }
             }
 
-            >p {}
+            > p {
+            }
 
-            >button {
+            > button {
               margin-top: 20px;
               cursor: pointer;
-              &:hover{
+              &:hover {
                 background-color: #000;
                 color: #fff;
-                
               }
             }
           }
@@ -298,14 +274,13 @@ body {
       /* -------------------------------portfolio section ---------------------------- */
       /* section  */
       &:nth-of-type(2) {
-
         background-color: rgb(243, 241, 241);
 
-        >div {
+        > div {
           /* border: 2px solid green; */
           padding-block: 8%;
 
-          >div {
+          > div {
             /* border: 1px solid crimson; */
             display: flex;
             flex-flow: column wrap;
@@ -325,12 +300,9 @@ body {
               padding-inline: 18px;
 
               gap: 20px;
-
-
             }
 
-
-            >figure {
+            > figure {
               outline: 10px solid rgb(202, 199, 199);
               outline-offset: 1px;
               width: 180px;
@@ -343,14 +315,14 @@ body {
                 height: 200px;
               }
 
-              >img {
+              > img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
               }
             }
 
-            >div {
+            > div {
               padding-inline: 10%;
 
               @media screen and (min-width: 768px) {
@@ -360,7 +332,7 @@ body {
                 margin-left: 8%;
               }
 
-              >p {
+              > p {
                 position: relative;
                 /* padding-left: 5%; */
                 color: gray;
@@ -390,7 +362,7 @@ body {
                 }
               }
 
-              >span {
+              > span {
                 &:nth-of-type(1) {
                   color: rgb(25, 26, 25);
                   display: block;
@@ -406,14 +378,16 @@ body {
               }
 
               &:nth-of-type(1) {
-                >figure {
-                  @media screen and (min-width: 1024px) {}
+                > figure {
+                  @media screen and (min-width: 1024px) {
+                  }
 
-                  img {}
+                  img {
+                  }
                 }
 
-                >div {
-                  >p {
+                > div {
+                  > p {
                     position: relative;
 
                     &::before {
@@ -428,21 +402,24 @@ body {
                     }
                   }
 
-                  >span {
-                    &:nth-last-of-type(1) {}
+                  > span {
+                    &:nth-last-of-type(1) {
+                    }
 
-                    &:nth-last-of-type(2) {}
+                    &:nth-last-of-type(2) {
+                    }
                   }
                 }
               }
 
               &:nth-last-of-type(2) {
-                >figure {
-                  img {}
+                > figure {
+                  img {
+                  }
                 }
 
-                >div {
-                  >p {
+                > div {
+                  > p {
                     position: relative;
 
                     &::before {
@@ -456,21 +433,24 @@ body {
                     }
                   }
 
-                  >span {
-                    &:nth-last-of-type(1) {}
+                  > span {
+                    &:nth-last-of-type(1) {
+                    }
 
-                    &:nth-last-of-type(2) {}
+                    &:nth-last-of-type(2) {
+                    }
                   }
                 }
               }
 
               &:nth-last-of-type(3) {
-                >figure {
-                  img {}
+                > figure {
+                  img {
+                  }
                 }
 
-                >div {
-                  >p {
+                > div {
+                  > p {
                     position: relative;
 
                     &::before {
@@ -485,16 +465,17 @@ body {
                     }
                   }
 
-                  >span {
-                    &:nth-last-of-type(1) {}
+                  > span {
+                    &:nth-last-of-type(1) {
+                    }
 
-                    &:nth-last-of-type(2) {}
+                    &:nth-last-of-type(2) {
+                    }
                   }
                 }
               }
             }
           }
-
         }
       }
 
@@ -513,10 +494,7 @@ body {
           margin-right: 3%;
         }
 
-
-
-
-        >figure {
+        > figure {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -528,19 +506,17 @@ body {
             width: 40%;
           }
 
-
-          >img {
+          > img {
             border-radius: 10px;
-
           }
 
-          >h3 {
+          > h3 {
             font-weight: 700;
             margin-block: 10px;
             font-size: 20px;
           }
 
-          >figcaption {
+          > figcaption {
             text-align: justify;
             color: gray;
             font-size: 14px;
@@ -556,8 +532,6 @@ body {
             }
           }
         }
-
-
       }
 
       /* ----------------------card section end ---------------------------- */
@@ -571,31 +545,29 @@ body {
         /* background-color: rgb(243, 241, 241); */
 
         /* --------/description----------- - */
-        >div {
-
-          >h3 {
+        > div {
+          > h3 {
             padding-inline: 10%;
             text-align: center;
             padding-top: 10%;
             margin-bottom: 10px;
           }
 
-          >p {
+          > p {
             text-align: center;
           }
         }
 
         /* --------/description end----------- - */
-        >button {
+        > button {
           margin: 10% auto;
           display: block;
           border-radius: 25px;
-          @media screen and (max-width:768px) {
+          @media screen and (max-width: 768px) {
             width: 200px;
             line-height: 50px;
           }
         }
-
       }
 
       /* -------------------------------introduction section end ---------------------------- */
@@ -604,17 +576,16 @@ body {
 
   /*  ------------------- main section end ---------------------------- */
 
-
   /*-------------------- footer section --------------- */
-  >footer {
+  > footer {
     background-color: rgb(243, 241, 241);
 
     /* -------------------- footer div 1 --------------- */
-    >div {
+    > div {
       /* border: 1px solid red; */
 
       /* ----------parent ul_footer ---------- */
-      >ul {
+      > ul {
         /* border: 1px solid blue; */
         padding-block: 5%;
         /* height: 50vh; */
@@ -625,7 +596,7 @@ body {
           padding-inline: 10%;
         }
 
-        >li {
+        > li {
           width: 100%;
           height: 100%;
           /* border: 1px solid green; */
@@ -635,10 +606,9 @@ body {
           @media screen and (min-width: 768px) {
             justify-content: space-around;
             /* height: 100% ; */
-
           }
 
-          >ul {
+          > ul {
             /* width: 40%; */
             /* border: 1px solid yellow; */
             width: 200px;
@@ -647,15 +617,13 @@ body {
               /* width: 25%; */
             }
 
-            >li {
+            > li {
               display: flex;
               justify-content: center;
               align-items: center;
               margin-block: 5%;
               color: gray;
               width: 100%;
-
-
 
               &:hover {
                 color: black;
@@ -670,7 +638,8 @@ body {
                 color: black;
               }
 
-              >a {}
+              > a {
+              }
             }
           }
         }
@@ -679,13 +648,11 @@ body {
       /* ----------parent ul_footer end ---------- */
 
       /* ----------icon box ---------- */
-      >div {
-
+      > div {
         width: 100%;
 
-        >div {
-          >a {
-
+        > div {
+          > a {
             /* color: transparent; */
             &:nth-of-type(1) {
               color: red;
@@ -703,13 +670,11 @@ body {
               color: rgb(0, 102, 255);
             }
 
-            >i {
+            > i {
               font-size: 20px;
-
             }
           }
         }
-
       }
 
       /* ----------icon box end ---------- */
@@ -719,12 +684,12 @@ body {
         /* height: 10%; */
         width: 100vw;
         background-color: rgb(17, 16, 16);
-        @media screen  and (min-width:768px){
+        @media screen and (min-width: 768px) {
           padding-right: 64px;
           height: 70px;
         }
 
-        >div {
+        > div {
           /* height: 30px; */
           text-align: center;
           display: flex;
@@ -733,7 +698,7 @@ body {
           color: rgb(165, 165, 165);
 
           &:nth-of-type(2) {
-            >button {
+            > button {
               position: relative;
               /* background-color: red; */
               display: flex;
@@ -743,11 +708,11 @@ body {
               align-items: center;
               cursor: pointer;
 
-              @media screen  and (max-width:1024px){
+              @media screen and (max-width: 1024px) {
                 margin-bottom: 5%;
               }
-              
-              >span {
+
+              > span {
                 width: 10px;
                 height: 10px;
                 /* background-color: red; */
@@ -760,26 +725,25 @@ body {
                 top: 20px;
                 animation: goToTop 1s ease-in-out infinite;
 
-                &:hover{
-
+                &:hover {
                 }
-                
+
                 &:nth-of-type(2) {
                   top: 15px;
                 }
               }
             }
           }
-          &:nth-of-type(3){
+          &:nth-of-type(3) {
             color: gray;
-            >a{
-              color:white;
+            > a {
+              color: white;
               font-weight: 700;
               margin-inline: 5%;
             }
           }
 
-          @media screen and (min-width:1024px) {
+          @media screen and (min-width: 1024px) {
             height: 50px;
             /* text-align: ; */
           }
@@ -790,16 +754,10 @@ body {
     }
 
     /* -------------------- footer div 1 end --------------- */
-
-
   }
 
   /*-------------------- footer section end --------------- */
 }
-
-
-
-
 
 .animateFromTop {
   opacity: 0;
@@ -832,14 +790,12 @@ body {
   transition: all 1s ease-in-out;
 }
 
-.opacityShow{
+.opacityShow {
   opacity: 0;
   transition: 1s ease-in-out;
   visibility: hidden;
   /* color: rgb(0, 0, 0); */
 }
-
-
 
 .activeElement {
   opacity: 1;
@@ -848,9 +804,8 @@ body {
   /* color: white; */
 }
 
-
 @keyframes goToTop {
-  from{
+  from {
     border-top: 3px solid rgb(255, 255, 255);
     border-left: 3px solid rgb(255, 255, 255);
   }
