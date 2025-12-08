@@ -12,7 +12,6 @@ focusing on learning structure, design, and clean UI.
 ## 🌐 Demo
 
 - Live Demo: [https://sparrow.mohammademamiproject.ir/](https://sparrow.mohammademamiproject.ir/)
--  [GitHub Demo](https://mohammademami2005.github.io/sparrow.webpana.ir/)
 
 ------------------------------------------------------------------------
 
